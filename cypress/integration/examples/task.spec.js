@@ -83,6 +83,7 @@ describe('Bayzat Task', () => {
 
     afterEach(() => {
         cy.get('li:nth-child(38) > a > span').click();
+        cy.url().should('eq', 'https://www.bayzat.com/enterprise/dashboard/login')
     })
 
 })
