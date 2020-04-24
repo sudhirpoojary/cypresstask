@@ -1,0 +1,19 @@
+{
+  "name": "cypress_automation_task",
+  "version": "1.0.0",
+  "description": "cypress automation task, cypress automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "task"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.4.1"
+  }
+}
